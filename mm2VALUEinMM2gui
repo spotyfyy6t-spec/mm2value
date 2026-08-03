@@ -16,7 +16,7 @@ else
 end
 
 print("[r0] у 5 т (3) до Script 2...")
-task.wait(500) -- 5 т
+task.wait(300) -- 5 т
 
 print("[r0] ю Script 2...")
 local ok2, err2 = pcall(function()
